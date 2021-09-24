@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', 'sans-serif';
+}
+
+
+html{
+    background-image: url('https://i.pinimg.com/originals/46/b0/d2/46b0d240fa7d36a1173f1067e95157d7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    padding-right: 50px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#ffff;
+    font-size: 25px;
+}
+
+
+.row{
+   display: flex;
+   height: 88%;
+   align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+
+p{
+    color: rgb(19, 19, 19);
+    font-size: 25px;
+    line-height: 25px
+}
+
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.perso{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+}
+
+.perso1{
+    background-image: url('https://images-na.ssl-images-amazon.com/images/I/91U3CQjJ8eL.jpg');
+}
+
+.perso2{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMxOtAGLWrDxJjpy4NGn2vRWlxddI2HFLTzycUBmgSaCuA8wDiBfVqcVonpQKwWxJ5DyI&usqp=CAU');
+}
+
+.perso3{
+    background-image: url('https://www.babelio.com/users/QUIZ_Les-personnages-des-BD-dAsterix_1002.jpeg');
+}
+
+.perso4{
+    background-image: url('https://i.la-croix.com/x/smart/2016/12/26/1200812985/visuel-gaston4_0.jpg');
+}
+
+.perso:hover{
+    transform: translateY(-10px);
+}
+
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
